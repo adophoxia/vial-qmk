@@ -2,7 +2,7 @@
     "name": "Keychron K3 Pro ANSI White",
     "vendorId": "0x3434",
     "productId": "0x0233",
-    "lighting": "qmk_backlight",
+    "lighting": "none",
     "customKeycodes": [
         { "name": "Left Option", "title": "Left Option", "shortName": "LOpt" },
         {
