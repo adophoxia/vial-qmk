@@ -20,9 +20,7 @@
 
 #    define DRIVER_ADDR_1 0b1110111
 #    define DRIVER_ADDR_2 0b1110100
-#    define DRIVER_1_LED_COUNT 47
-#    define DRIVER_2_LED_COUNT 41
-#    define RGB_MATRIX_LED_COUNT (DRIVER_1_LED_COUNT + DRIVER_2_LED_COUNT)
+#    define RGB_MATRIX_LED_COUNT 88
 
 /* Set to infinit, which is use in USB mode by default */
 #    define RGB_MATRIX_TIMEOUT RGB_MATRIX_TIMEOUT_INFINITE
