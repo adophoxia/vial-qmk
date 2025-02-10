@@ -363,10 +363,7 @@ void init_usb_driver(USBDriver *usbp) {
     usbConnectBus(usbp);
 }
 
-__attribute__((weak)) void restart_usb_driver(USBDriver *usbp) {
-    usbDisconnectBus(usbp);
-    usbStop(usbp);
-
+__attribute__((weak)) void usb_start(USBDriver *usbp) {
     for (int i = 0; i < USB_ENDPOINT_IN_COUNT; i++) {
         usb_endpoint_in_stop(&usb_endpoints_in[i]);
     }
